@@ -1,0 +1,38 @@
+# Python bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.bin
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+
+# macOS
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Raw datasets (download at runtime)
+data/raw/
+data/processed/
+MNIST/
+cifar-10-batches-py/
+cifar-100-python/
+
+# OS
+Thumbs.db
